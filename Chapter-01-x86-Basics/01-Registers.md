@@ -11,7 +11,7 @@ Now we will understand what registers are and how they work.
  Instead of going to RAM everytime,the CPU first tries to use registers because they are much faster.
  ##
  In Protected mode:-
- ! Each register is 32 bits (4bytes) wide
- ! Programs can not directly access all the hardware
- ! Memory is protected so one program can not easily corrupt another.
+_ **Each register is 32 bits (4bytes) wide.**
+_ **Programs can not directly access all the hardware.**
+_ **Memory is protected so one program can not easily corrupt another.**
  
