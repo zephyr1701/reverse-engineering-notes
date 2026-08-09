@@ -14,4 +14,26 @@ Now we will understand what registers are and how they work.
 _ **Each register is 32 bits (4bytes) wide.**
 _ **Programs can not directly access all the hardware.**
 _ **Memory is protected so one program can not easily corrupt another.**
- 
+
+ ## The x86 architecture has eight 32bit general registers(GPRs)
+ 1-EAX
+ 2-EBX
+ 3-ECX
+ 4-EDX
+ 5-ESI
+ 6-EDI
+ 7-EBP
+ 8-ESP
+
+## EAX (Extended Accumulator register)
+**Most commonly used register.**
+**It often stores:-
+1.Return values from functions
+2.Arithmetic results
+3.Temporary values**
+### Example
+1. mov eax,5
+**This means put the value inside EAX**
+
+## EBX (Extended Base Register)
+
