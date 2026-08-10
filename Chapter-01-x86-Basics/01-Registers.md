@@ -36,4 +36,23 @@ _ **Memory is protected so one program can not easily corrupt another.**
 **This means put the value inside EAX**
 
 ## EBX (Extended Base Register)
+**Usually stores adresses and pointers.**
+### Example
+1. mov ebx,0x401000,
+**0x41000** which might be the address of a string or variable.
+
+## ECX (Extended count register)
+**Mostly used as a counter**
+### Example
+1. mov ecx,10
+Now ECX contains 10.
+**A loop instruction might decrease ECX until it reaches zero :-10,9,8.....1,0.**
+
+## EDX (Extended Data Register)
+**Often used together with EAX.**
+### Example
+when multiplying huge numbers,the result may not fit into EAX ,
+**CPU stores:- High part- EDX ,Low part- EAX
+## ESI (Extended Source Index)
+
 
